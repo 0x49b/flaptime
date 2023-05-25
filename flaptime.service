@@ -1,0 +1,21 @@
+[Unit]
+Description=Flaptime Service
+ConditionPathExists=/home/pi/flaptime
+After=network.target
+
+[Service]
+Type=simple
+User=pi
+Group=pi
+
+WorkingDirectory=/home/pi/flaptime
+ExecStart=/home/pi/flaptime/flaptime
+
+Restart=on-failure
+RestartSec=10
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=flaptimeservice
+
+[Install]
+WantedBy=multi-user.target

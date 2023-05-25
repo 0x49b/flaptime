@@ -21,7 +21,7 @@ func main() {
 
 	ipcon := ipconnection.New()
 	defer ipcon.Close()
-	io, _ := io16_bricklet.New(IO16UID, &ipcon) // Create device object.
+	io, _ := io16_bricklet.New(IO16UID, &ipcon)
 	hour, _ := stepper_brick.New(HOURSTEPUID, &ipcon)
 	minute, _ := stepper_brick.New(MINUTESTEPUID, &ipcon)
 	db, _ := dual_button_bricklet.New(BTNUID, &ipcon)
@@ -87,9 +87,8 @@ func driveToPos(io *io16_bricklet.IO16Bricklet, stepper *stepper_brick.StepperBr
 	stepper.Enable()
 	stepper.DriveBackward()
 	for {
-		// Get current value from port A as bitmask.
-		valueMaskA, _ := io.GetPort(port)
-		if valueMaskA == pos {
+		valueMask, _ := io.GetPort(port)
+		if valueMask == pos {
 			stepper.FullBrake()
 			break
 		}

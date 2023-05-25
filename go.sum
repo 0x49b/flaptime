@@ -1,0 +1,9 @@
+github.com/Tinkerforge/go-api-bindings v0.0.0-20220822151315-57cfa2922110 h1:amFrOqoewW9g8TXNHnQFM/KGbyDan4FsvcDiPEMXlq0=
+github.com/Tinkerforge/go-api-bindings v0.0.0-20220822151315-57cfa2922110/go.mod h1:sXwYJWz/0ObwjQP7rrYUuo7ynCPSHsV9FX9NDr2yd3M=
+github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
+github.com/multiplay/go-cticker v0.0.0-20190411183326-bd2f021b1c08 h1:jWb01UKNyl5S6iyDizRUAkL2155tWWJ2DCPceojk3ek=
+github.com/multiplay/go-cticker v0.0.0-20190411183326-bd2f021b1c08/go.mod h1:WhTPF1Th6ko3yQOKF1Cr87ARk+IW+dnqeAr6tIIcwbY=
+github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
+github.com/stretchr/testify v1.8.3 h1:RP3t2pwF7cMEbC1dqtB6poj3niw/9gnV4Cjg5oW5gtY=
+github.com/stretchr/testify v1.8.3/go.mod h1:sz/lmYIOXD/1dqDmKjjqLyZ2RngseejIcXlSw2iwfAo=
+gopkg.in/yaml.v3 v3.0.1 h1:fxVm/GzAzEWqLHuvctI91KS9hhNmmWOoWu0XTYJS7CA=

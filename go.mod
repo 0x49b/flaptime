@@ -3,7 +3,7 @@ module flaptime
 go 1.18
 
 require (
-	github.com/Tinkerforge/go-api-bindings v0.0.0-20220822151315-57cfa2922110
+	github.com/Tinkerforge/go-api-bindings v0.0.0-20240227173217-368b7493d93e
 	github.com/multiplay/go-cticker v0.0.0-20190411183326-bd2f021b1c08
 )
 
